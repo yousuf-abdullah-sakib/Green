@@ -1,0 +1,211 @@
+@media(max-width:1200px){
+    .logo{
+        width: 30%;
+    }
+    .menu{
+        width: 70%;
+    }
+    .menu ul li a{
+        font-size: 0.8em;
+        padding: 3px 10px;
+    }
+    .contact-form{
+        width: 60%;
+    }
+    .banner-content h2{
+        margin-top: 60px;
+    }
+
+}
+
+
+
+
+
+@media(max-width:991px){
+
+    .menu-box{
+        width: 42%;
+    }
+    .contact-form{
+        width: 65%;
+    }
+    .about-content{
+        display: block;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-img{
+        width: 100%;
+    }
+    .card{
+        width: 30%;
+    }
+}
+
+
+
+
+
+
+@media(max-width:767px){
+    .contact-form{
+        width: 85%;
+    }
+    .header-area{
+        position:relative;
+    }
+    .menu{
+        position: absolute;
+        top:100%;
+        left: 0;
+        background-color: #4a4647;
+        width: 100%;
+        display: none;
+    }
+    .menu ul{
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .menu ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: flex;
+        width:20% ;
+        font-size: 1.2em;
+        justify-content: end;
+    }
+    .logo{
+        width: 70%;
+    }
+    .menu-box{
+        width: 48%;
+    }
+    .card{
+           
+        width: 48%;
+
+        }
+
+
+}
+
+
+
+
+@media(max-width:500px){
+    body{
+        width: 100%;
+    }
+    .menu{
+        width:100%;
+    }
+    .logo a{
+        font-size: 1.2em;
+    }
+    .container{
+        width: 90%;
+        margin: auto;}
+    .banner-content h2{
+        font-size: 1.1em;
+    }
+    .banner-content p{
+        font-size: 12px;
+    }
+    .banner-content a{
+        font-size: 12px;
+        padding: 7px 20px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+    .about-text p{
+        font-size: 12px;
+        padding: 10px 0 10px 0;
+    }
+    .about-content{
+        padding: 10px 0;
+    }
+    .about-text h2{
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    .about-text h2 span{
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+
+    .menu-box{
+        width: 90%;
+    }
+    .menu-content{
+        justify-content: center;
+        
+    }
+    .menu-area{
+        padding:0;}
+    .menu-head h2{
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    .menu-head h2 span{
+        color: #ff0157;
+        font-size: 23px;
+        
+    }
+    .menu-head p{
+        font-weight: 500;
+        font-size: 12px;}
+
+        .expert-content{
+            text-align: center;
+        }
+
+        .expert-head h2{
+            font-size: 1.2em;
+            font-weight: 500;
+            margin-top: 50px;
+        }
+        .expert-head h2 span{
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #ff0157;
+            }
+
+        .expert-body{
+            display: block;
+            justify-content:center;
+            
+        }
+        
+        .card{
+           
+            width: 90%;
+            border-radius: 5px;
+            margin:0 auto 240px;
+            
+        
+        }
+
+        .footer-up h3{
+            font-size: 12px;
+        }
+        .footer-body{
+            flex-flow: wrap;
+        }
+        .footer-infro{
+            width: 35%;
+            margin-bottom: 50px;
+
+            }
+
+}
+
+
+
+
+
+
